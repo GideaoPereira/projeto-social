@@ -9,7 +9,7 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: black;
 }
 
 body {
@@ -21,9 +21,9 @@ body {
 }
 
 main {
-    height: 100vh;
-    position: relative;
     
+    position: relative;
+    height: 100vh;
 }
 
 section#telefone {
@@ -35,14 +35,14 @@ section#telefone {
     height: 627px;
     width: 311px;
    
-    background: url('../imagens/frame-iphone.png') no-repeat  ;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 266px;
     height: 471px;
 }
 
@@ -52,7 +52,7 @@ section#redes-sociais {
 
 section#redes-sociais img {
     width: 50px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
     box-sizing: border-box;   
